@@ -120,8 +120,6 @@ class Drop_out_layer(tf.keras.layers.Layer):
         
         return output
         
-def main():
-    Drop_out_layer(rate=0.5)
 
 
 if __name__ == '__main__':
