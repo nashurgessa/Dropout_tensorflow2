@@ -123,7 +123,6 @@ class Drop_out_layer(tf.keras.layers.Layer):
 
 
 if __name__ == '__main__':
-    main()
     tf.random.set_seed(0)
     x = tf.ones([3, 5])
     print("Input_data")
