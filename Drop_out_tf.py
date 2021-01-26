@@ -4,10 +4,6 @@ import tensorflow as tf
 from tensorflow.keras import backend as K
 
 
-def smart_cond(pred, true_fn=None, false_fn=None, name=None):
-    pass
-
-
 def get_noise_shape(x, noise_shape):
     if noise_shape is None:
         return tf.shape(x)
